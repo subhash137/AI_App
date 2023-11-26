@@ -1,0 +1,56 @@
+.dynamic{
+
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    color: red;
+    width:70vh;
+    background: linear-gradient(to right, #7b4397, #dc2430);
+    border-radius: 20px;
+    transform:translateY(-1500%) translateX(600px);
+    position: fixed;
+    
+
+
+
+}
+
+.island button{
+
+    margin-left:30px;
+   
+    text-decoration: none;
+    color: white;
+    
+    outline:none;
+    border: none;
+    background-color: transparent;
+   
+    font-weight: 800;
+    font-size: 20px;
+    
+
+}
+
+
+
+.island button:hover ,
+.island button:active
+{
+    
+    background-color: transparent;
+    /* color:linear-gradient(to right, #43cea2 , #185a9d); */
+    color:#43cea2;
+    
+    transition: 0.3s ease-in-out;
+    transform: translateY(-10%);
+    cursor: pointer;
+    
+
+
+    
+}
+
